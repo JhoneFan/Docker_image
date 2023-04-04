@@ -1,4 +1,4 @@
-# stylegan2-ada Docker_image
+# StyleGAN2-ada Docker mage
 Docker image environment for StyleGAN2-ada-pytorch  
 This Docker image is on nvidia/cuda:11.2.0-cudnn8-devel-ubuntu18.04 with TensorFlow==1.14.0, python==3.7 and pytorch==1.7.1 and jupyter  
 Be careful with nvidia/cuda:11.2.0-cudnn8-devel-ubuntu18.04, since the StyleGAN2-ada-pytorch need to use nvcc, we can not use the runtime, e.g. nvidia/cuda:11.2.0-cudnn8-runtime-ubuntu18.04  
